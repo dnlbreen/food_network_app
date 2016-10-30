@@ -25,7 +25,18 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
     
+@app.route('/four_topics', methods = ['GET', 'POST'])
+def four_topics():
+    return render_template('four_topics.html')
+
+@app.route('/seven_topics', methods = ['GET', 'POST'])
+def seven_topics():
+    return render_template('seven_topics.html')
+    
+@app.route('/twenty_topics', methods = ['GET', 'POST'])
+def twenty_topics():
+    return render_template('twenty_topics.html')
+    
 if __name__ == '__main__':
 
-    #app.run(port=35507, debug=False)
     app.run()
