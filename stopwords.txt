@@ -1,0 +1,408 @@
+cup 
+cups
+cup
+pounds
+pound 
+ripe 
+fresh 
+diced 
+sliced 
+dice 
+slice 
+cut 
+tablespoon 
+tablespoons
+teaspoon 
+teaspoons
+ounce 
+ounces
+,
+1 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+sifted 
+divided 
+cans 
+split 
+bone-in
+bone 
+ in 
+vine-ripe
+ ears
+cloves
+packed 
+sticks
+more 
+for 
+about 
+approximately 
+almost 
+removed
+husks 
+finely 
+ stalks
+european-style
+european 
+jumbo 
+beaten 
+heavy 
+large 
+small 
+fat-free
+ and 
+,and 
+ or 
+,or 
+peeled 
+across 
+ head 
+heads 
+ halved
+ softened
+whole 
+frozen 
+melted 
+cooled 
+slightly 
+slight 
+plus 
+minus 
+day-old 
+week-old 
+wheat 
+ at 
+ room 
+ temperature
+mcintosh
+granny
+ tart 
+ pint 
+ pints 
+,to 
+ to 
+ taste
+ bunch 
+ brunch 
+clove 
+minced
+mince 
+ package 
+johnsonville\\xae 
+johnsonville\\\\xae
+\\\\xbc
+smooth 
+strained 
+smoothed 
+chunky 
+butt 
+removed
+remove 
+from 
+melt 
+leftover 
+coarse 
+coarsed
+outer
+inner
+heap 
+heaping
+heaped 
+beaten 
+beat 
+all-purpose 
+chopped 
+whole 
+sauteing 
+for 
+medium 
+middle 
+pound 
+cooked 
+dried 
+wet 
+dry 
+dried 
+crisp 
+crunchy 
+rich 
+poor 
+ to 
+cook 
+peeled 
+deveined 
+serve 
+serving
+low-sodium 
+ tables 
+ table 
+freshly 
+squeezed 
+squeeze 
+thin 
+thinly 
+thickly 
+sliced 
+against 
+teaspoon 
+teaspoons 
+boneless 
+skinless 
+prepared 
+prepare 
+ hot 
+ cold 
+high-sodium 
+low-sodium 
+julienned 
+ island 
+divide 
+divided 
+slab 
+shredded 
+shred 
+flat 
+asian 
+fillets 
+fillet 
+cut 
+into 
+quart 
+quarts
+quarter 
+quarters 
+good-quality 
+best-quality 
+decent-quality 
+johnsonville 
+italian 
+removed 
+remove 
+solid 
+liquid 
+chopped 
+suitable 
+suited 
+frying 
+baking 
+bone-in 
+bone-out 
+mini 
+ tins
+ tin 
+ tubes
+ tops 
+ top  
+topped 
+white- 
+yellow-skinned 
+sweet 
+salty 
+tasty 
+crusty 
+whole-wheat 
+style 
+styled 
+grade 
+square 
+squared 
+seasoned 
+prime 
+quality 
+ absolute
+ absolutely
+u'
+,
+'
+pint 
+pints 
+quart 
+quarts 
+,such as 
+ can 
+ with 
+or to 
+save 
+ i 
+prefer 
+ the 
+ a 
+ may be
+ maybe 
+substituted
+substitute 
+refreshed
+green 
+quartered
+ shredded
+frying
+rounded
+eyeball it
+grated
+ then
+quarters
+then sliced
+handfuls
+generous
+your choice
+chopped
+sliced
+seeded
+cooled
+ by 
+ one 
+two 
+three
+four 
+five 
+six 
+seven 
+eight 
+ nine 
+ ten 
+by 3
+lightly
+crushed
+peeled
+television
+network
+reserved
+g.p.
+ all 
+ rights 
+reserved
+copyright
+food 
+200
+201
+divided
+the grain
+steamed
+tablet
+preferably
+bitter
+boxes
+refrigerator
+8-ounce 
+7-ounce 
+6-ounce 
+5-ounce 
+4-ounce 
+3-ounce 
+2-ounce 
+1-ounce 
+additional
+taste
+smashed
+roughly
+shelled
+plain
+deveined
+firmly
+packed
+pure 
+optional
+u"
+confectioners
+trimmed
+such as
+spoonful
+handful
+torn 
+pieces
+strips
+diced
+zesty
+thawed
+drained
+rinsed
+best
+possible
+grams
+milliliters
+milliliter 
+temperature
+[0-9]+ 
+[0-9-]+inch
+[-]+ 
+like
+ of 
+partly
+frozen
+tbs.
+tsp.
+in half
+lengthwise
+nonfat
+amber
+coarsely
+cored
+discarded
+the flesh
+shucked
+the kernels
+separately
+desired
+inch 
+-lb
+rinses
+ if 
+stemmed
+canned
+well
+some 
+bottle 
+bottled
+bottles
+double-cut
+greasing
+granulated
+dusting
+package 
+packaged
+packages
+patted
+separated
+toasted
+beaten
+recipe follows
+extra 
+extras
+scant 
+as needed
+picked over
+skin on
+cleaned
+part only
+loosely
+filtered
+assorted
+thick.
+ use 
+etc.
+slices
+sliced
+other 
+minutes
+hours
+at least
+at most
+julienned
+segmented
+zested
+juiced
+"
+washed
+ground 
+dash 
+dashes
+percent 
+percentage 
+lowfat
+soft 
+hard 
