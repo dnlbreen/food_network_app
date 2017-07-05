@@ -5,3 +5,7 @@ psycopg2==2.6.1
 whitenoise==2.0.6
 requests==2.9.1
 Flask==0.10.1
+numpy
+scipy
+sklearn
+cPickle

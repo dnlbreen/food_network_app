@@ -11,6 +11,11 @@
     <title>Daniel Breen - Data Incubator Application Draft</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+    <script type=text/javascript src="{{url_for('static', filename='jquery-3.1.1.min.js') }}"></script>
+  <script type="text/javascript">
+    var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  </script>
     <link rel="stylesheet" href="{{ url_for('static', filename='theme/bootstrap.css') }}" media="screen">
     <link rel="stylesheet" href="{{ url_for('static', filename='theme/usebootstrap.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}">
@@ -133,19 +138,51 @@
                   With 20 topics, many of the topics aren't really well defined, but some of the main categories show up. You can check out which words are most important in a given topic and which topics certain words are most important with the interactive tool generated with pyLDAvis.gensim <a href="{{ url_for('twenty_topics') }}">here</a></p>.
                   
               </p>
-                <img src="{{ url_for('static', filename='img/topic_distance_map_20.png') }}" data-label="twenty_topics"/>
+                <img src="{{ url_for('static', filename='img/twenty_topics.png') }}" data-label="twenty_topics"/>
                 <p>
                   A <a href="{{ url_for('seven_topics') }}">7 topic model</a> is able to distinguish something close to Mexican, Italian, Greek, Asian, and 'French' cuisines as different topics. So far, LDA is not able to distinguish more than that, but as more features are added and the dataset is balanced and enlarged, more cuisines will be distinguishable.
                  </p>
-                <img src="{{ url_for('static', filename='img/topic_distance_map_7.png') }}" data-label="seven_topics"/>
+                <img src="{{ url_for('static', filename='img/seven_topics.png') }}" data-label="seven_topics"/>
                  <p>
                   Finally, with <a href="{{ url_for('four_topics') }}">fewer than 5 topics</a>, we find that LDA is able to separate out different topics robustly. Here we find something corresponding roughly to Asian, Italian, Greek, and 'French'.
                 </p>
-                <img src="{{ url_for('static', filename='img/topic_distance_map_4.png') }}" data-label="seven_topics"/>
+                <img src="{{ url_for('static', filename='img/four_topics.png') }}" data-label="seven_topics"/>
                 
           </div>
         </div>
       </div>
+      
+
+
+<title>jQuery Example</title>
+
+<script type="text/javascript">
+  $(function() {
+    var submit_form = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/_add_numbers', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#calculate').bind('click', submit_form);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+<h1>jQuery Example</h1>
+<p>
+  <input type="text" size="5" name="a"> +
+  <input type="text" size="5" name="b"> =
+  <span id="result">?</span>
+<p><a href=# id="calculate">calculate server side</a>
       
       <a class="anchor" id="about"></a>
       <div class="page-header">
@@ -182,5 +219,6 @@
           </footer-->
 
   </body>
+  
 </html>
 
